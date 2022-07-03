@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.aurora</groupId>
+        <artifactId>aurora</artifactId>
+        <version>3.5.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>aurora-common-log</module>
+        <module>aurora-common-core</module>
+        <module>aurora-common-redis</module>
+        <module>aurora-common-swagger</module>
+        <module>aurora-common-security</module>
+        <module>aurora-common-datascope</module>
+		<module>aurora-common-datasource</module>
+    </modules>
+
+    <artifactId>aurora-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+	    aurora-common通用模块
+    </description>
+
+</project>

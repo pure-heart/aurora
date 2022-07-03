@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.aurora.common.security.config.WebMvcConfig,\
+  org.aurora.common.security.service.TokenService,\
+  org.aurora.common.security.aspect.PreAuthorizeAspect,\
+  org.aurora.common.security.aspect.InnerAuthAspect,\
+  org.aurora.common.security.handler.GlobalExceptionHandler

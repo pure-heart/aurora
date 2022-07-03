@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.aurora.common.log.service.AsyncLogService,\
+  org.aurora.common.log.aspect.LogAspect

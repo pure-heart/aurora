@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.aurora.common.swagger.config.SwaggerAutoConfiguration,\
+  org.aurora.common.swagger.config.SwaggerWebConfiguration,\
+  org.aurora.common.swagger.config.SwaggerBeanPostProcessor
